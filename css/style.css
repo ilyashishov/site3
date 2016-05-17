@@ -7,10 +7,61 @@ header{
 	width: 100%;
 	height: 200px;
 	background-color: #999;
+	margin-bottom: 5px;
+	position: relative;
 }
 
 
 header h1{
 	line-height: 200px;
 	margin-left: 20px;
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+.cont{
+	border: 1px solid black;
+	flex-grow: 1;
+}
+.left{
+	width: 250px;
+	border: 1px solid red;
+	flex-grow: 0;
+	padding: 10px;
+}
+.right{
+	width: 250px;
+	border: 1px solid red;
+	flex-grow: 0;
+	padding: 5px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.menu{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.news .new{
+	margin: 10px 0px;
+	border: 1px solid #666;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.news .new .title{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.h-right{
+	position: absolute;
+	top: 30px;
+	right: 30px;
 }
