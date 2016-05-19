@@ -32,7 +32,6 @@ $isLogin = isLogin();
 			<li><a href="/clients.php">Контакты</a></li>
 			<li><a href="/clients.php">Список клиентов</a></li>
 			<li><a href="/users_list.php">Список пользователей</a></li>
-			<li><a href="/users_list.php">Price</a></li>
 		</ul>
 	</div>
 </div>
