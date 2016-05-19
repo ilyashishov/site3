@@ -1,5 +1,10 @@
 <?php 
 	include("connect.php"); 
+	include("check.php"); 
+
+	if($isLogin){
+		echo "Привет";
+	}
  ?>
  <!DOCTYPE html>
  <html lang="en">
