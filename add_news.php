@@ -4,8 +4,7 @@ if(isset($_POST['title'])){
 	if($_POST['title'] != ''){
 		$title = $_POST["title"];
 		$text = $_POST["text"];
-
-		$query = mysql_query("INSERT INTO `news` (`title`,`text`) VALUES ('$title','$text')") or die (Mysql_error());
+		$query = mysql_query("INSERT INTO news (title,text) VALUES ('$title','$text')") or die (Mysql_error());
 	}
 }
 ?>

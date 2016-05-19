@@ -1,7 +1,5 @@
 <?php 
 	include("connect.php"); 
-	setcookie("id", '1', 1);
-    setcookie("hash", '1', 1);
 	if(isset($_POST['login'])){
 		$login = $_POST['login'];
 		$user = mysql_query("SELECT * FROM `users` WHERE login='$login' LIMIT 1");
@@ -9,7 +7,7 @@
 		if($res[2] == $_POST['password']){
 			echo "ok";
 			$hash = md5(generateCode());
-			$userLogin = mysql_query("UPDATE `users` SET hesh='$hash' WHERE login='$login'");
+			$userLogin = mysql_query("UPDATE `users` SET hash='$hash' WHERE login='$login'");
 			setcookie("id", $res[0], time()+60*60*24*30);
         	setcookie("hash", $hash, time()+60*60*24*30);
         	header('Location: /');
