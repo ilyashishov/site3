@@ -28,7 +28,7 @@ $isLogin = isLogin();
 				<?php
 				}
 			?>
-			<li><a href="/clients.php">Программы и услуги 1</a></li>
+			<li><a href="/clients.php">Программы и услуги</a></li>
 			<li><a href="/clients.php">Контакты</a></li>
 			<li><a href="/clients.php">Список клиентов</a></li>
 			<li><a href="/users_list.php">Список пользователей</a></li>
