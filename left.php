@@ -28,10 +28,10 @@ $isLogin = isLogin();
 				<?php
 				}
 			?>
-			<li><a href="/clients.php">Программы и услуги</a></li>
-			<li><a href="/clients.php">Контакты</a></li>
+			<li><a href="/programma.php">Программы и услуги</a></li>
+			<li><a href="/contacts.php">Контакты</a></li>
 			<li><a href="/clients.php">Список клиентов</a></li>
-			<li><a href="/users_list.php">Отзывы</a></li>
+			<li><a href="/reviews.php">Отзывы</a></li>
 		</ul>
 	</div>
 </div>

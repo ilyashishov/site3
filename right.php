@@ -1,4 +1,3 @@
-
 <div class="right">
 	<div class="news">
 		<h2 class="text-center">Новости</h2>

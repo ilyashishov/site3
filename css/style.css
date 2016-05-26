@@ -116,3 +116,34 @@ textarea{
 ul{
 	list-style: none;
 }
+
+.text{
+	margin: 20px;
+}
+.o{
+	text-indent: 1.5em;
+}
+
+.text li{
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.text ul{
+	list-style: outside;
+}
+
+.reviews{
+	padding: 20px;
+}
+.review{
+	padding: 10px;
+	margin-bottom: 30px;
+	box-shadow: 1px 1px 1px 2px rgba(0,0,0,.3);
+	border-radius: 4px;
+}
+
+.review .author{
+	text-align: right;
+	margin: 10px;
+	font-style: italic;
+}
