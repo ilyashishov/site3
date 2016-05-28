@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `clients` (
 INSERT INTO `clients` (`id`, `last_name`, `first_name`, `patronymic`, `date_of_birth`, `phone`, `email`, `information`) VALUES
 (1, 'РњРёС…Р°Р№Р»РѕРІ', 'РђСЂС‚РµРј', 'РЎРµСЂРіРµРµРІРёС‡', '17.01.1996', '943432432', 'fdsfds@mail.ru', 'РЅРµС‚'),
 (2, '??????', '?????', '????', '754765', '657567', '56756', '7567'),
-(3, '???‹?°?‹???°', '?‹???°?‹??', '?°???‹?°', '???‹?°???‹', '?°???‹?°', '?‹???°???‹', '?°???‹?°'),
+(3, '???‹?°?‹???°', Светлана, '?°???‹?°', '???‹?°???‹', '?°???‹?°', '?‹???°???‹', '?°???‹?°'),
 (4, 'РїРІР°РїРІР° ', 'РїРІР°Рї ', 'РІР° Рї', 'РІР° РїРІР°', 'Рї Р°РІ', 'Рї РІР° ', ' Р°РІРї');
 
 -- --------------------------------------------------------
@@ -74,17 +74,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `hash` varchar(255) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
---
--- Дамп данных таблицы `users`
---
-
-INSERT INTO `users` (`id`, `login`, `password`, `last_name`, `first_name`, `hash`) VALUES
-(2, 'test', 'test', 'test', 'test', '487031e75bf6d504a4c5e2b17222255a'),
-(3, 'artem', '1234', 'РђСЂС‚РµРј', 'РњРёС…Р°Р№Р»РѕРІ', '6e04f82e7b143215ba95252f957395d0');
-
---
--- Индексы сохранённых таблиц
---
 
 --
 -- Индексы таблицы `clients`
@@ -98,11 +87,7 @@ ALTER TABLE `clients`
 ALTER TABLE `news`
   ADD PRIMARY KEY (`id`);
 
---
--- Индексы таблицы `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
+
 
 --
 -- AUTO_INCREMENT для сохранённых таблиц
@@ -119,10 +104,3 @@ ALTER TABLE `clients`
 ALTER TABLE `news`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT для таблицы `users`
---
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
