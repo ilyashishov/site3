@@ -6,7 +6,7 @@
 	</svg>
 	<div style="position: absolute; top: 0px; width: 90%; left: 50px;">
 		<div class="logo">
-			<a href="/">Сайт психотерапевта</a>
+			<a href="/">САЙТ ПСИХОТЕРАПЕВТА</a>
 		</div>
 		<div class="h-right">
 			<?php 
