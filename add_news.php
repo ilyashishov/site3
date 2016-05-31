@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 include("connect.php"); 
 if(isset($_POST['title'])){
 	if($_POST['title'] != ''){

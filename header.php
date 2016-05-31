@@ -1,4 +1,4 @@
-<header>
+﻿<header>
 	<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="107px" xml:space="preserve">
 		<rect x="0.2%" y="2" transform="rotate(1)" fill="#FFFFFF" stroke="#C7C7C6" stroke-width="1" width="98%" height="86"></rect>
 		<rect x="1.8%" y="16" transform="rotate(-0.8)" fill="#FFFFFF" stroke="#C7C7C6" stroke-width="1" width="98%" height="86"></rect>

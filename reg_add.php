@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 	include("connect.php"); 
 	if (isset($_POST['login'])) {
 		if($_POST['password'] == $_POST['password2']){

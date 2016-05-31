@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 $connect = mysql_connect('localhost', 'root', '');
 mysql_select_db('db2');
 mysql_query('SET NAMES cp1251');

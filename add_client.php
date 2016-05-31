@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 	include("connect.php"); 
 	if(isset($_POST['f'])){
 		$last_name = $_POST['f'];

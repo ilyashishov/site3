@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 function isLogin(){
 	if (isset($_COOKIE['id']) and isset($_COOKIE['hash'])){
 		$query = mysql_query("SELECT * FROM users WHERE id = '".intval($_COOKIE['id'])."' LIMIT 1");
