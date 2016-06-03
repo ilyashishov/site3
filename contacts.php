@@ -15,7 +15,7 @@ include("connect.php");
 		<?php include("left.php"); ?>
 		<div class="cont">
 			<div class="text">
-				<font size="+3">
+				<font size="+1">
 				Фамилия Имя Отчество
 				<br> <br>
 				Телефон: +7(000)000-00-00
