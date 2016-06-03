@@ -15,17 +15,17 @@ include("connect.php");
 		<?php include("left.php"); ?>
 		<div class="cont">
 			<div class="text">
-				<font size="+1">
+				<font size="+3">
 				Фамилия Имя Отчество
 				<br> <br>
 				Телефон: +7(000)000-00-00
-				E-mail: example@example.ru
-				Skype: Username
+				<br>E-mail: example@example.ru
+				<br>Skype: Username
 				<br> <br>
 				Дополнительная информация:
-				www.information.org
-				www.information.ru
-				www.information.com
+				<br>www.information.org
+				<br>www.information.ru
+				<br>www.information.com
 				</font>
 			</div>
 		</div>
